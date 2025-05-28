@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fullscreen Clock & Timer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body onclick="goFullscreen()">
+
+  <div id="container">
+    <div id="clock">--:--:--:---</div>
+    <div id="timer-setup">
+      <input type="number" id="timerInput" placeholder="Enter timer in seconds" />
+      <button onclick="startTimer()">Start</button>
+    </div>
+  </div>
+
+  <audio id="player" src="" autoplay></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#container {
+  text-align: center;
+}
+
+#clock {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+#timer-setup input {
+  font-size: 1.5rem;
+  padding: 5px 10px;
+  width: 300px;
+}
+
+#timer-setup button {
+  font-size: 1.5rem;
+  padding: 5px 20px;
+  margin-left: 10px;
+}
